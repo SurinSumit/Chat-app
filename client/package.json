@@ -6,6 +6,7 @@
     "16": "^0.0.2",
     "ajv": "^6.12.6",
     "ajv-keywords": "^3.5.2",
+    "chat_application": "file:..",
     "query-string": "^6.8.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
