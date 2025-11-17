@@ -11,6 +11,8 @@ import './Chat.css';
 
 const ENDPOINT = import.meta.env.VITE_API_BASE;
 
+console.log("VITE_API_BASE:", import.meta.env.VITE_API_BASE);
+
 let socket;
 
 const Chat = ({ location }) => {
