@@ -9,7 +9,7 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = `${import.meta.env.VITE_API_BASE}`;
+const ENDPOINT = import.meta.env.VITE_API_BASE;
 
 let socket;
 
