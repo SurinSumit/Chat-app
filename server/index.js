@@ -20,7 +20,11 @@ const io = socketio(server, {
 
 
 
-app.use(cors());
+app.use(cors({
+  origin: "https://chat-app-topaz-five-78.vercel.app/",
+  methods: ["GET", "POST"],
+  credentials: true
+}));
 app.use(router);
 
 io.on('connect', (socket) => {

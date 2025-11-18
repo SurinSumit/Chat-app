@@ -9,9 +9,9 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = import.meta.env.VITE_API_BASE;
+const ENDPOINT = process.env.REACT_APP_API_BASE;
 
-console.log("VITE_API_BASE:", import.meta.env.VITE_API_BASE);
+console.log("API BASE:", process.env.REACT_APP_API_BASE);
 
 let socket;
 
