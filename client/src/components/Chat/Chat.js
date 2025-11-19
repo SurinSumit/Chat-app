@@ -11,8 +11,6 @@ import './Chat.css';
 
 const ENDPOINT = process.env.REACT_APP_API_BASE;
 
-console.log("API BASE:", process.env.REACT_APP_API_BASE);
-
 let socket;
 
 const Chat = ({ location }) => {
