@@ -5,6 +5,8 @@ import Join from './components/Join/Join';
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
+console.log("ENV TEST =", process.env.REACT_APP_API_BASE);
+
 const App = () => {
   return (
     <Router>
